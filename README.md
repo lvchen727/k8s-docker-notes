@@ -2,15 +2,15 @@
 My learning notes about Kubernetes and Docker
 
 
-## [Kubernetes notes](kubernetes.md)
+1. [Kubernetes notes](kubernetes.md)
 
-## [Docker notes](Docker.md)
+2. [Docker notes](Docker.md)
 
-## Projects
+3. Projects
 
-[simple docker app](docker-app)
+- [simple docker app](docker-app)
 
-[multi-tier application using kubernetes](rsvpapp)
+- [multi-tier application using kubernetes](rsvpapp)
 
 
 

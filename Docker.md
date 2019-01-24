@@ -78,3 +78,16 @@ docker run -p 4000:80 username/repository:tag
 
 
 
+## Notes
+
+1. no space on disk for dock
+
+see [answer](https://forums.docker.com/t/no-space-left-on-device-error/10894/17)
+
+```
+rm ~/Library/Containers/com.docker.docker/Data/com.docker. driver.amd64-linux/Docker.qcow2
+Restart docker
+qemu-img resize ~/Library/Containers/com.docker.docker/Data/com.docker. driver.amd64-linux/Docker.qcow2 +10G
+```
+
+
